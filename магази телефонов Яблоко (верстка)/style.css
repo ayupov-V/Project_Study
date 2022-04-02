@@ -1,0 +1,226 @@
+body {
+    background: #f8f8f8
+}
+
+h3 {
+    font: bolder 20px sans-serif
+}
+
+h1 {
+    font: bolder 25px monospace
+}
+
+.menu li {
+    list-style-type: none;
+    font: bolder 15px cursive;
+    text-decoration: none;
+    float: left;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+.menu li a:hover {
+    color: fuchsia;
+}
+
+.list li:nth-child(1):after {
+    content: " new";
+    color: red;
+}
+
+
+.menu li a:active {
+    color: red;
+}
+
+.menu li ul {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a {
+    color: blueviolet;
+    display: block;
+}
+
+.first {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.two {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.three {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.three:first-letter {
+    font-style: oblique;
+    font-size: 30px;
+    font: bolder;
+}
+
+.four {
+    list-style-image: url(img/icon.jpg);
+    font: 20px sans-serif;
+    color: darkslategrey;
+}
+
+.five {
+    list-style-type: circle;
+    font: 20px serif;
+    color: darkslateblue;
+}
+
+.six textarea {
+    background-color: antiquewhite;
+    font-size: 15px;
+}
+
+.six input {
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.six input[type="text"] {
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+    height: 24px;
+}
+
+.six input[type="text"]:focus{
+    color: black;
+    background-color: aqua;
+}
+.six input[type="text"]:colortext {
+    background-color: cornsilk;
+    color: #930;
+}
+
+textarea {
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+    text-transform: capitalize;
+}
+
+.seven {
+    font: bolder 15px cursive;
+}
+
+.three a {
+    color: darkslateblue;
+    font-size: 18x
+}
+
+img[alt="phone"] {
+    outline: 4px solid grey;
+}
+
+img[alt="color"] {
+    outline: 4px solid pink;
+}
+
+img[alt="phone"]:hover {
+    outline: none;
+}
+
+img[alt="color"]:hover {
+    outline: none;
+}
+
+img[alt="menu"] {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 900px;
+}
+
+.tableone {
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.tableone th {
+    border: 1px solid black;
+}
+
+.tableone caption {
+    font-style: oblique;
+    font-size: 20px;
+    font: bolder;
+}
+
+.lineone {
+    background-color: burlywood;
+}
+
+.tabletwo {
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.tabletwo th {
+    border: 1px solid black;
+}
+
+.linetwo {
+    height: 100px;
+}
+
+.header {
+    height: 110px;
+    background: url(img/fond.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.footer {
+    height: 70px;
+    background-color: gainsboro;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.buy:hover {
+    color: red;
+    background-color: aqua;
+}
+
+.buy:active {
+    color: blueviolet;
+}
+
+.phones {
+    float: left
+}
+
+.photo {
+    display: inline-block;
+    margin: 10px;
+}

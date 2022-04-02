@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Личный сайт студента GeekBrains</title>
+	<link rel="stylesheet" href="style.css"> 
+	<script type="text/javascript">
+
+		var score = 0;
+
+		function checkAnswer(inputId, answers){
+			var userAnswer = document.getElementById(inputId).value;
+			userAnswer = userAnswer.toUpperCase();
+			for(var i = 0; i < answers.length; i++){
+				if(userAnswer == answers[i]){
+					score++;
+					break;
+				}
+			}
+		}
+		
+		function checkAnswers() {
+
+			checkAnswer("userAnswer1", ["1", "ЕДИНИЦА","ОДИН"]);
+			checkAnswer("userAnswer2", ["2", "ДВА","ДВОЙКА"]);
+			checkAnswer("userAnswer3", ["3", "ТРИ","ТРОЙКА"]);
+
+			alert("Вы отгадали " + score + " загадок");
+			document.getElementById("userAnswer1").value='';
+			document.getElementById("userAnswer2").value='';
+			document.getElementById("userAnswer3").value='';
+			score=0;
+		}
+
+	</script>
+</head>
+<body>
+
+<div class="content">
+	<div class="header">
+		<a href="index.html">Главная</a>
+		<a href="#">Загадки</a>
+		<a href="guess.html">Угадайка</a>
+		<a href="password.html">Генератор паролей</a>
+	</div>
+
+<div class="contentWrap">
+    <div class="content">
+        <div class="center">
+
+			<h1>Игра в загадки</h1>
+
+			<div class="box">
+
+				<p>Как безлиственная ветка,Она пряма, суха, тонка. Ты встречал её нередко В дневнике ученика?</p>
+				<input type="text" id="userAnswer1">
+
+				<p>Светит солнце, пруд цветет, Лебедь по нему плывет, Ближе он подплыл едва -Оказалась цифра...</p>
+				<input type="text" id="userAnswer2">
+
+				<p>Под деревом четыре льва, Один ушёл, осталось...</p>
+				<input type="text" id="userAnswer3">
+
+				<br>
+				<a href="#" onClick="checkAnswers();">Ответить</a>
+
+			</div>
+
+        </div>
+    </div>
+</div>
+
+	
+
+</div>
+<div class="footer">
+	Copyright &copy; Vasily Pupkin
+<div>
+
+
+</body>
+</html>

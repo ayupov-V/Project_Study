@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+</head>
+<form action="#" id="burger-form">
+    <fieldset id="burger-fieldset">
+        <h3 id="burger-top">Составте свой бургер</h3>
+        <fieldset class="burger-fieldest-inside">
+            <h4 class="burger-h4">Выберите размер бургера</h4>
+            <input type="radio" name="size" id="Bigburger" value="Big" class="burger-input" data-price="100"
+                data-calories="80">
+            <label for="bigburger">Большой (100 рублей, 40 калорий)</label><br>
+            <input type="radio" name="size" id="Smallburger" value="Small" class="burger-input" data-price="50"
+                data-calories="20">
+            <label for="bigburger">Маленкий (50 рублей, 20 калорий)</label>
+        </fieldset>
+        <fieldset class="burger-fieldest-inside">
+            <h4 class="burger-h4">Выберите начинку бургера</h4>
+            <input type="radio" name="add" id="Chesse" value="Cheese" class="burger-input" data-price="10"
+                data-calories="20">
+            <label for="Cheese">Сыр (10 рублей, 20 калорий)</label><br>
+            <input type="radio" name="add" id="Salat" value="Salat" class="burger-input" data-price="20"
+                data-calories="5">
+            <label for="Salat">Салат (20 рублей, 5 калорий)</label><br>
+            <input type="radio" name="add" id="Potato" value="Potato" class="burger-input" data-price="15"
+                data-calories="10">
+            <label for="Potato">Салат (15 рублей, 10 калорий)</label><br>
+        </fieldset>
+        fieldset class="burger-fieldest-inside">
+        <h4 class="burger-h4">Выберите доп. опцию</h4>
+        <input type="checkbox" name="tophings" id="Seasoning" value="Seasoning" class="burger-input" data-price="15"
+            data-calories="0">
+        <label for="Seasoning">Приправа (15 рублей, 0 калорий)</label><br>
+        <input type="checkbox" name="tophings" id="Mayonnaise" value="Mayonnaise" class="burger-input" data-price="20"
+            data-calories="5">
+        <label for="Mayonnaise">Салат (20 рублей, 5 калорий)</label>
+    </fieldset>
+    <div id="check">Собрать бургер</div>
+
+    <p id="result">Итоговая стоимость: <span id="price">0</span> <br>
+        Кол-во калорий: <span id="calories">0</span></p>
+    </fieldset>
+</form>
+<script src="BF.js"></script>
+<script>
+    window.onload = () => {
+        document.getElementById("check").addEventListener('click', () => {
+            let burger = new Burger('size', 'add', 'topings');
+            console.log(burger);
+            burger.showSum("#price", "#calories");
+        });
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>

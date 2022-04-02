@@ -1,0 +1,271 @@
+.price_table {
+  margin: 90px 233px 0px 230px;
+  width: 1137px;
+}
+
+.prise_table_title {
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: #dfdfdf solid 3px;
+}
+
+.col_tab {
+  font-size: 13px;
+  font-weight: bold;
+  color: #222222;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.col_two {
+  margin-left: 390px;
+}
+
+.col_t {
+  margin-left: 79px;
+}
+
+.basket {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: #dfdfdf solid 3px;
+}
+
+.bac_des {
+  margin-left: 21px;
+}
+
+.man_bac {
+  font-size: 13px;
+  color: #222222;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.des_cs {
+  margin-top: 38px;
+  font-size: 13px;
+  color: #575757;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.des_p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #6f6e6e;
+  line-height: 20px;
+}
+
+.hundred_fifty {
+  margin-left: 255px;
+  font-size: 13px;
+  color: #656565;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.des_num {
+  height: 30px;
+  width: 54px;
+  margin-left: 110px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  outline: none;
+  padding-left: 10px;
+  font-size: 13px;
+  color: #656565;
+  line-height: 20px;
+}
+
+.des_free {
+  margin-left: 98px;
+  font-size: 13px;
+  color: #656565;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.des_three_hundred {
+  margin-left: 105px;
+  font-size: 13px;
+  color: #656565;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.des_cross {
+  margin-left: 115px;
+  font-size: 16px;
+  color: #c0c0c0;
+  text-align: right;
+  text-transform: uppercase;
+  transition: 2s;
+  &:hover {
+    opacity: 0.4;
+  }
+}
+
+.button_shop_tb {
+  display: flex;
+  margin-top: 55px;
+}
+
+.clear_sh {
+  height: 50px;
+  width: 235px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  transition: 2s;
+}
+
+.cont_sh {
+  height: 50px;
+  width: 235px;
+  margin-left: 700px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  transition: 2s;
+}
+
+.cont_sh:hover {
+  background-color: #ef5b70;
+}
+
+.clear_sh:hover {
+  background-color: #ef5b70;
+}
+
+.buy_order {
+  display: flex;
+  margin: 63px 233px 0px 230px;
+}
+.sh_adress {
+  width: 355px;
+}
+.sh_coup {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.inp_coun {
+  margin-top: 22px;
+  height: 45px;
+  width: 355px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #b1b1b1;
+  outline: none;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  padding-left: 18px;
+}
+
+.input_or {
+  height: 45px;
+  width: 355px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #b1b1b1;
+  padding: 16px 17px 18px 17px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  outline: none;
+}
+
+.input_or::placeholder {
+  font-size: 13px;
+  font-weight: 300;
+  color: #b1b1b1;
+}
+
+.but_or {
+  margin-top: 23px;
+  height: 35px;
+  width: 100px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 11px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  outline: none;
+  transition: 2s;
+}
+.but_or:hover {
+  background-color: #ef5b70;
+}
+
+.coup_disk {
+  margin-left: 35px;
+  width: 355px;
+}
+.coup_cod {
+  margin-top: 28px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+.total_od {
+  margin-left: 36px;
+  height: 214px;
+  width: 360px;
+  background-color: #f5f3f3;
+  text-align: center;
+}
+.tot_box {
+  margin: 40px 41px 0px 41px;
+  width: 275px;
+  padding-bottom: 22px;
+  border-bottom: 3px solid #e2e2e2;
+  text-align: right;
+}
+.sub_tot {
+  font-size: 11px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+}
+
+.gr_tot {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+  text-transform: uppercase;
+  transition: 2s;
+}
+
+.gr_tot_red {
+  color: $colorActive;
+}
+
+.check_tot {
+  margin-top: 17px;
+  height: 50px;
+  width: 273px;
+  background-color: $colorActive;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  transition: 2s;
+}
+.check_tot:hover {
+  opacity: 0.6;
+}
